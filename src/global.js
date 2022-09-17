@@ -1,0 +1,10 @@
+const body = document.body;
+body.style.margin = 0;
+body.style.height = "100vh";
+export const gameWidth = body.clientWidth;
+export const gameHeight = body.clientHeight;
+const canvas = document.getElementById("game-container");
+canvas.style.display = "block";
+canvas.width = gameWidth;
+canvas.height = gameHeight;
+export const ctx = canvas.getContext("2d");

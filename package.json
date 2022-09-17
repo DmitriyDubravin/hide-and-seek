@@ -1,0 +1,26 @@
+{
+  "name": "hide-and-seek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run server && npm run watch",
+    "watch": "webpack --watch",
+    "server": "webpack-dev-server",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-typescript": "^7.8.3",
+    "jest": "^25.1.0",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
